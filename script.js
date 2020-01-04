@@ -3,8 +3,7 @@ $(document).ready(function() {
   const trelloApiRoot = 'https://stark-mountain-98426.herokuapp.com/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
-
-
+  
   var availableBoards = {};
   var availableTasks = {};
 
